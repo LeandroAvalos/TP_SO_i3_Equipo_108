@@ -17,3 +17,12 @@ F) Yo sin moverme de mi repositorio local que estaba desactualizado utilice los 
 -git checkout Avalos // cambie mi branch local a Avalos para poder pushear los archivos hacia esa rama
 -git commit -m "Gamma: modifica beta.txt branch avalos" // para commitear
 -git push origin Avalos // para pushear los cambios al branch Avalos
+G) Desde mi repositorio local:
+-git pull https://github.com/LeandroAvalos/TP_SO_i3_Equipo_108 Avalos //traigo los datos del branch de Avalos
+-ipconfig >> beta.txt //agrego los datos a beta.txt
+-nano beta.txt //agrego mi nombre y hora a beta.txt
+-git fetch //actualizo los datos del repositorio remoto para tener disponible las ramas
+-git checkout Avalos //cambio a la rama de Avalos
+-git add . //guardo los cambios
+-git commit -m //hago un commit
+-git push //pusheo los datos
