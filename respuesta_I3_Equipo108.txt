@@ -1,0 +1,7 @@
+Alpha: Sampietro Franco
+Beta: Avalos Leandro Sebastian
+Gamma: Lautaro Fernandez
+
+A) La branch Master queda con todos los archivos creados y modificados por las demas branch.
+B) Si, Beta puede ver todos los cambios realizados por las demas branch.
+C) No vi necesario usar comandos, ya que vi que era mas simple realizar el merge desde github.
