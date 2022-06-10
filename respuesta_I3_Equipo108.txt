@@ -5,3 +5,11 @@ Gamma: Lautaro Fernandez
 A) La branch Master queda con todos los archivos creados y modificados por las demas branch.
 B) Si, Beta puede ver todos los cambios realizados por las demas branch.
 C) No vi necesario usar comandos, ya que vi que era mas simple realizar el merge desde github.
+D) Las ramas se crean con los datos que tenga tu repositorio local al momento de pushear. Por ende no todas las ramas van a contener lo mismo.
+E) Yo sin moverme de mi repositorio local que estaba desactualizado utilice los siguientes comandos:
+-git pull <remote> <branch> // para hacer un merge local y traerme todo lo que contenía el branch pasado como parámetro (Avalos, en este caso) remote = https://github.com/LeandroAvalos/TP_SO_i3_Equipo_108.git, branch = Avalos
+-ipconfig >> beta.txt // esto lo utilice para "concatenar" los datos que retornaba ipconfig al archivo de texto
+-nano beta.txt // luego a traves de nano agregue tanto nombre y apellido como hora 
+-git checkout Avalos // cambie mi branch local a Avalos para poder pushear los archivos hacia esa rama
+-git commit -m "Gamma: modifica beta.txt branch avalos" // para commitear
+-git push origin Avalos // para pushear los cambios al branch Avalos
